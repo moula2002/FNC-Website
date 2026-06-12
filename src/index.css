@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+
+  /* Curated Health & Wellness Palette */
+  --color-primary-50: #f0f7f4;
+  --color-primary-100: #dcedc8;
+  --color-primary-200: #c5e1a5;
+  --color-primary-500: #2e7d32;
+  --color-primary-600: #1b5e20;
+  --color-primary-700: #0f3d13;
+  --color-primary-800: #0a290d;
+  --color-primary-900: #051808;
+
+  --color-secondary-50: #f7f9f6;
+  --color-secondary-100: #ebf0e9;
+  --color-secondary-200: #d1ded0;
+  --color-secondary-500: #688a6d;
+  --color-secondary-600: #4e6a53;
+  
+  --color-accent-gold: #c6a052;
+  --color-accent-gold-light: #dfc48c;
+  --color-accent-gold-dark: #a27f39;
+
+  --color-dark-bg: #0b120c;
+  --color-dark-surface: #131c15;
+  --color-dark-border: #1e2e21;
+}
+
+/* Base custom classes & scroll behavior */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: #fbfcfb;
+  color: #1c2a1e;
+  overflow-x: hidden;
+}
+
+/* Dark mode overrides if requested, but let's make it look premium by default */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dark-glassmorphism {
+  background: rgba(19, 28, 21, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Custom animations for background blobs */
+@keyframes float {
+  0% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-10px) scale(1.05); }
+  100% { transform: translateY(0px) scale(1); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 8s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbdcd0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3c4ad;
+}
