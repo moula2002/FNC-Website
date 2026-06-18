@@ -161,25 +161,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -249,25 +231,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -337,25 +301,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -425,25 +371,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -498,25 +426,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -591,25 +501,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -682,25 +574,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -770,25 +644,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -861,25 +717,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }
@@ -952,25 +790,7 @@ export default function Services({ activeSpecialty, setActiveSpecialty, setActiv
           </div>
         </section>
 
-        {/* Coral thoughts banner at the bottom */}
-        <section className="w-full bg-[#484e36] py-16 mt-12">
-          <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-              <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-              <div>
-                <button
-                  onClick={() => {
-                    setActiveTab('contact');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-                >
-                  Review Us
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
       </div>
     );
   }

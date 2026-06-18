@@ -399,54 +399,8 @@ export default function Home({ setActiveTab, setActiveSpecialty }) {
             <p className="text-gray-300 text-sm mt-2">What people say about us</p>
           </div>
 
-          <div className="space-y-16">
-            {/* Testimonial 1 */}
-            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-              <div className="w-full md:w-64 bg-white text-[#1f2d5a] rounded-xl p-8 flex flex-col items-center justify-center shadow-lg text-center shrink-0 min-h-[160px]">
-                <h4 className="text-xl font-bold">Sangeetha</h4>
-                <p className="text-gray-500 text-sm font-medium mt-1">Bangalore</p>
-              </div>
-              <div className="flex-1 space-y-3">
-                <div className="flex items-center text-yellow-400 text-xl">
-                  ★★★★★
-                </div>
-                <p className="text-gray-200 text-sm sm:text-base leading-relaxed font-medium">
-                  Dr. Swathi A S is an excellent nutritionist who helped me in achieving my weight loss goals. Her personalized approach to creating a diet plan based on my body type and lifestyle was exceptional. With her guidance, I learned how to make healthy food choices, which made a significant difference in my overall health. I would highly recommend Dr. Swathi A S to anyone who is looking to improve their diet and lead a healthier lifestyle.
-                </p>
-              </div>
-            </div>
-
-            {/* Testimonial 2 */}
-            <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
-              <div className="w-full md:w-64 bg-white text-[#1f2d5a] rounded-xl p-8 flex flex-col items-center justify-center shadow-lg text-center shrink-0 min-h-[160px]">
-                <h4 className="text-xl font-bold">Soundarya</h4>
-                <p className="text-gray-500 text-sm font-medium mt-1">Bangalore</p>
-              </div>
-              <div className="flex-1 space-y-3 text-left">
-                <div className="flex items-center text-yellow-400 text-xl">
-                  ★★★★★
-                </div>
-                <p className="text-gray-200 text-sm sm:text-base leading-relaxed font-medium">
-                  Dr. Swathi A S is an amazing nutritionist who has helped me immensely in managing my diabetes. Her knowledge and expertise in nutrition science are second to none. She was able to create a customized meal plan that not only helped me manage my blood sugar levels but also improved my overall health. Her encouragement and support throughout the process were invaluable. I highly recommend Dr. Swathi A S to anyone looking for a nutritionist.
-                </p>
-              </div>
-            </div>
-
-            {/* Testimonial 3 */}
-            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-              <div className="w-full md:w-64 bg-white text-[#1f2d5a] rounded-xl p-8 flex flex-col items-center justify-center shadow-lg text-center shrink-0 min-h-[160px]">
-                <h4 className="text-xl font-bold">Abhishek</h4>
-                <p className="text-gray-500 text-sm font-medium mt-1">Tumkur</p>
-              </div>
-              <div className="flex-1 space-y-3">
-                <div className="flex items-center text-yellow-400 text-xl">
-                  ★★★★★
-                </div>
-                <p className="text-gray-200 text-sm sm:text-base leading-relaxed font-medium">
-                  I had been struggling with gut issues for years, and nothing seemed to work until I met Dr. Swathi A S. She was able to identify the root cause of my digestive problems and created a meal plan that helped alleviate my symptoms. Her approach was holistic, and she also recommended some lifestyle changes that made a huge difference. I can't thank Dr. Swathi A S enough for the positive impact she has had on my health. I highly recommend her to anyone looking for a knowledgeable and caring nutritionist.
-                </p>
-              </div>
-            </div>
+          <div className="flex justify-center min-h-[400px]">
+            <div className="elfsight-app-d6aef1e7-66c4-4821-ac58-1ddf6baf28bc" data-elfsight-app-lazy></div>
           </div>
 
           <div className="text-center mt-16">
@@ -460,22 +414,7 @@ export default function Home({ setActiveTab, setActiveSpecialty }) {
         </div>
       </section>
 
-      {/* 6. What are your thoughts? Section */}
-      <section className="w-full bg-[#484e36] pb-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="bg-[#ff8f8f] text-white rounded-sm p-8 text-center space-y-5 shadow-md">
-            <h3 className="font-display text-2xl sm:text-3xl font-bold">What are your thoughts?</h3>
-            <div>
-              <button
-                onClick={() => handleNavClick('contact')}
-                className="bg-[#72b02a] hover:bg-[#5f9322] text-white font-bold py-3.5 px-8 rounded-sm text-sm transition-colors cursor-pointer uppercase inline-block shadow-sm"
-              >
-                Review Us
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
