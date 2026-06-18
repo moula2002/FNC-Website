@@ -12,23 +12,20 @@ import { PhoneCall } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState(() => {
-    const params = new URLSearchParams(window.location.search);
-    return params.get('tab') || 'home';
+    const path = window.location.pathname.split('/').pop();
+    return path || 'home';
   });
   const [activeSpecialty, setActiveSpecialty] = useState(null);
 
   useEffect(() => {
-    const url = new URL(window.location);
-    if (activeTab === 'home') {
-      url.searchParams.delete('tab');
-    } else {
-      url.searchParams.set('tab', activeTab);
+    const targetPath = activeTab === 'home' ? '/' : `/${activeTab}`;
+    if (window.location.pathname !== targetPath) {
+      window.history.pushState({}, '', targetPath);
     }
-    window.history.pushState({}, '', url);
 
     const handlePopState = () => {
-      const params = new URLSearchParams(window.location.search);
-      setActiveTab(params.get('tab') || 'home');
+      const path = window.location.pathname.split('/').pop();
+      setActiveTab(path || 'home');
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
