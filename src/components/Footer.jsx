@@ -66,7 +66,7 @@ export default function Footer({ setActiveTab }) {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavClick('privacy')}
+                  onClick={() => handleNavClick('privacy-policy')}
                   className="hover:text-primary-600 transition-colors cursor-pointer flex items-center gap-2"
                 >
                   <span className="text-slate-500">•</span> Privacy Policy
@@ -131,7 +131,7 @@ export default function Footer({ setActiveTab }) {
         <span>© {new Date().getFullYear()} Fasting Nutrocare — Dr. Swathi A S. All Rights Reserved.</span>
         <span className="hidden sm:inline text-slate-300">|</span>
         <button
-          onClick={() => handleNavClick('privacy')}
+          onClick={() => handleNavClick('privacy-policy')}
           className="hover:text-primary-600 transition-colors cursor-pointer underline"
         >
           Privacy Policy

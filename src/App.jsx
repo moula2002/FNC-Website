@@ -41,7 +41,7 @@ export default function App() {
         return <Services activeSpecialty={activeSpecialty} setActiveSpecialty={setActiveSpecialty} setActiveTab={setActiveTab} />;
       case 'blog':
         return <Blog setActiveTab={setActiveTab} />;
-      case 'privacy':
+      case 'privacy-policy':
         return <PrivacyPolicy setActiveTab={setActiveTab} />;
       case 'reviews':
         return <Reviews setActiveTab={setActiveTab} />;
